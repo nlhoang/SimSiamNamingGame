@@ -2,8 +2,6 @@
 
 Code for two papers built around SSNG, a self-supervised signaling-game model where two (or more) agents learn a discrete "language" to communicate about their inputs while training a SimSiam-style self-supervised objective.
 
-This repository covers the emergent-communication side of both papers (`SSNG`, `GSSNG`) only. The original paper's representation-learning comparison (`SSNG_RL` vs. `SimSiam`/`SimSiamVI`/`SimCLR`/`BYOL` baselines) is not included in this release.
-
 | Paper | Reference | Entry point | Model |
 |---|---|---|---|
 | Original (2-agent) | *SimSiam Naming Game: A Unified Approach for Emergent Communication and Representation Learning* ([arXiv:2410.21803](https://arxiv.org/abs/2410.21803)) | `main_ssng.py` | `model/SSNG.py` |
